@@ -4,7 +4,9 @@ public class OlympicsTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		//let lebron = new Olympian("Lebron");
+//		Olympian lukaDoncic = new Olympian("Luka");
+		
+//		lukaDoncic.displayInfo();
 		
 		BasketballPlayer p1 = new BasketballPlayer("Lebron", 45.8);
 		
@@ -13,6 +15,8 @@ public class OlympicsTest {
 		p1.displayInfo();
 		
 		p1.shootBball();
+		
+		p1.setVerticalJumpHeight(20);
 		
 		p1.displayInfo();
 		

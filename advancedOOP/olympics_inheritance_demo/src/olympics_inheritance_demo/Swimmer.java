@@ -2,7 +2,7 @@ package olympics_inheritance_demo;
 
 public class Swimmer extends Olympian {
 	//100m swim speed
-	public double swimSpeed;
+	private double swimSpeed;
 
 	public Swimmer(String firstName, double swimSpeed) {
 		//if the parent class has a parameter in its constructor, then we must super that parameter
@@ -24,6 +24,19 @@ public class Swimmer extends Olympian {
 	public void displayInfo() {
 		System.out.printf("Player name: %s \nEnergy Level: %s \nSwim Speed: %s \n", this.firstName, this.energyLevel, this.swimSpeed);
 	}
+
+
+	public double getSwimSpeed() {
+		return swimSpeed;
+	}
+
+
+	public void setSwimSpeed(double swimSpeed) {
+		if(swimSpeed > 0) {
+			this.swimSpeed = swimSpeed;
+		}
+	}
+	
 	
 	
 	

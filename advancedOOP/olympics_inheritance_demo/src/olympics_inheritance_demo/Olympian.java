@@ -1,10 +1,10 @@
 package olympics_inheritance_demo;
 
 //olympian class that represents an olympian
-public class Olympian {
+public abstract class Olympian {
 	//member variables (english: attributes/characteristics)
-	public String firstName;
-	public int energyLevel;
+	protected String firstName;
+	protected int energyLevel;
 	
 	//constructor for the olympian class
 	public Olympian(String firstName) {
@@ -13,8 +13,24 @@ public class Olympian {
 	}
 	
 	//methods (english: things that the class objects can do)
-	public void displayInfo() {
-		System.out.printf("Player name: %s \nEnergy Level: %s \n", this.firstName, this.energyLevel);
+	public abstract void displayInfo();
+
+	public String getFirstName() {
+		return firstName;
 	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	public int getEnergyLevel() {
+		return energyLevel;
+	}
+
+	public void setEnergyLevel(int energyLevel) {
+		this.energyLevel = energyLevel;
+	}
+	
+	
 	
 }
