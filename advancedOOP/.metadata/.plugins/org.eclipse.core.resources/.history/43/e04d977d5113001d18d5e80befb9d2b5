@@ -1,0 +1,11 @@
+package olympics_inheritance_demo;
+
+public class Swimmer extends Olympian {
+
+	public Swimmer(String firstName) {
+		//if the parent class has a parameter in its constructor, then we must super that parameter
+		super(firstName);
+	}
+	
+
+}

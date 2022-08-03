@@ -1,0 +1,10 @@
+package olympics_inheritance_demo;
+
+public class BasketballPlayer extends Olympian {
+
+	public BasketballPlayer(String firstName) {
+		super(firstName); //super means do what the parent class is doing with this parameter
+		// TODO Auto-generated constructor stub
+	}
+	
+}

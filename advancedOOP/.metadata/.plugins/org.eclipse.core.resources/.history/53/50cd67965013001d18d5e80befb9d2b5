@@ -1,0 +1,19 @@
+package olympics_inheritance_demo;
+
+public class BasketballPlayer extends Olympian {
+	
+	public double verticalJumpHeight;
+	
+
+	public BasketballPlayer(String firstName, double verticalJumpHeight) {
+		super(firstName); //super means do what the parent class is doing with this parameter
+		// TODO Auto-generated constructor stub
+//		this.energyLevel = 200;
+		this.verticalJumpHeight = verticalJumpHeight;
+	}
+	
+	//shootBball()
+	
+	//pass()
+	
+}

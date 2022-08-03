@@ -1,0 +1,15 @@
+package olympics_inheritance_demo;
+
+public class OlympicsTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//let lebron = new Olympian("Lebron");
+		
+		BasketballPlayer p1 = new BasketballPlayer("Lebron", 45.8);
+		
+		p1.displayInfo();
+		
+	}
+
+}

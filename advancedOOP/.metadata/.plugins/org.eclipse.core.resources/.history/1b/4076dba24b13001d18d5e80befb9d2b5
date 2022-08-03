@@ -1,0 +1,11 @@
+package olympics_inheritance_demo;
+
+public class OlympicsTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Hello world. Hey how how u doin'?");
+		
+	}
+
+}

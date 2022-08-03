@@ -1,0 +1,8 @@
+package olympics_inheritance_demo;
+
+public class BasketballPlayer extends Olympian {
+	
+	public BasketballPlayer(String firstName) {
+		this.firstName = firstName;
+	}
+}
